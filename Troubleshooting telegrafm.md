@@ -1,3 +1,7 @@
+* [Part 1.](https://github.com/studentmtk/Umee_monitoring/blob/main/README.md) Installation Instructions
+* [Part 2.](https://github.com/studentmtk/Umee_monitoring/blob/main/Troubleshooting%20telegrafm.md)  Troubleshooting telegraf
+* [Part 3.](https://github.com/studentmtk/Umee_monitoring/blob/main/Guidelines%20interpreting%20metrics.md) Interpreting monitoring metrics
+ 
 # Troubleshooting telegraf
 
 Diagnostics of the correct collection of metrics.
@@ -28,3 +32,6 @@ Now, after executing the script, the value of VOTING_POWER is empty. This causes
 
 
 The full guide can be found at the link https://github.com/influxdata/telegraf       https://docs.influxdata.com/telegraf/v1.20/
+
+Read the description of the metrics.
+* [Part 3.](https://github.com/studentmtk/Umee_monitoring/blob/main/Guidelines%20interpreting%20metrics.md) Interpreting monitoring metrics
