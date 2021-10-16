@@ -15,7 +15,7 @@ Frequent bugs
 
 Check  permissions. Make the script executable
 ```
-sudo chmod 744 $HOME/Umee-monitoring/umee_monitor.sh
+sudo chmod 744 $HOME/Umee_monitoring/umee_monitor.sh
 ```
 "Error in plugin: metric parse error"
 
