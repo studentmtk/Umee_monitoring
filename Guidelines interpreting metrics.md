@@ -32,7 +32,7 @@ Telegraf can collect metrics from a wide array of inputs and write them to a wid
 - Missed blocks -The count starts from the moment the active validator is started. If you are in jail, then after the validator is resumed, the count of the missed blocks will start from 0
 - Height your node
 - STATUS - The node status is synchronized, not synchronized, the node is stopped.
-- Height Nodes_guru node - the height of the Nodes guru node. (if you have just launched the validator, you will be able to see how far the network has run.) If the node Nodes_guru is stopped, you will see the corresponding inscription.
+- Height Nodes_guru node - the height of the Nodes guru node. (if you have just launched the validator, you will be able to see how far the network has run.) If the node Nodes_guru is stopped or not synchronized, you will see the corresponding inscription.
 - Up_time - the percentage of signed blocks by your validator to the total number of blocks since the validator was launched.
 - status_jailed
 
