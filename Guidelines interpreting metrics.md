@@ -3,7 +3,7 @@
 *This post is Part 3 of a 3-part series about setting up proper monitoring on your Umee monitornig.*
 
 * [Part 1.](https://github.com/studentmtk/Umee_monitoring/blob/main/README.md) Installation Instructions
-* [Part 2.](https://github.comstudentmtk/Umee_monitoring/blob/main/How%20to%20Install%20TIG%20Stack.md) Troubleshooting telegraf
+* [Part 2.](https://github.com/studentmtk/Umee_monitoring/blob/main/Troubleshooting%20telegrafm.md) Troubleshooting telegraf
 * [Part 3.](https://github.com/studentmtk/Umee_monitoring/blob/main/Guidelines%20interpreting%20metrics.md) Interpreting monitoring metrics
 
 ## Interpreting monitoring metrics
