@@ -74,7 +74,7 @@ VAL_ADDR=$(umeed keys show $YOU_UMEE_WALLET --bech val -a)
 moniker=$(curl -s localhost:26657/status | jq -r '."result"."node_info"."moniker"')
 echo $VAL_ADDR $moniker
 ```
-### If the command "echo $VAR_ADDR $moniker" does not output anything, you need to check the umeed service (systemctl status umeed  /journalctl -u umeed -f )
+### If the command "echo $VAL_ADDR $moniker" does not output anything, you need to check the umeed service (systemctl status umeed  /journalctl -u umeed -f )
 ### If the echo command works correctly, continue the installation
 ```
 sed -i "s/^umeevaloper*=.*/umeevaloper=$VAL_ADDR/" $HOME/Umee_monitoring/umee_monitor.sh
