@@ -35,7 +35,6 @@ TG_BOT=
 TG_ID=
 ip=$(wget -qO- eth0.me)
 
-MSG=""
 touch $LOG_FILE
 REAL_BLOCK=$(curl -s "$SIDE_RPC/status" | jq '.result.sync_info.latest_block_height' | xargs )
 STATUS=$(curl -s "$NODE_RPC/status")
@@ -89,7 +88,8 @@ if [[ $MSG != "" ]]; then
 fi
 
 ```
-### Substitute your data in the script in !!!!! TG_BOT=(Telegram bot API) and TG_ID=(Telegram ID)  
+### Substitute your data in the script in !!!!! TG_BOT=(Telegram bot API) and TG_ID=(Telegram ID)
+Also specify the name of your validator NODE_NAME=""
 
 ```
 sudo chmod 744 Umee_alert_TG.sh; cd
