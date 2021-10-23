@@ -4,7 +4,7 @@
 umeevaloper=
 moniker=
 cli=$HOME/go/bin/umeed
-SIDE_RPC="https://umeevengers-1b-rpc-1.nodes.guru" #RPC Nodes_guru
+SIDE_RPC="https://umeevengers-1b-rpc-2.nodes.guru" #RPC Nodes_guru
 NODE_RPC="http://127.0.0.1:26657" #Your node RPC address, e.g. "http://127.0.0.1:26657"
 now=$(date +%s%N)   # date in influx format
 STATUS=$(curl -s "$NODE_RPC/status")
