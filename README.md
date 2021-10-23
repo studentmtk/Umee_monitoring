@@ -122,7 +122,7 @@ nano /etc/telegraf/telegraf.conf
 # Output Plugin InfluxDB
 [[outputs.influxdb]]
   database = "Umee"
-  urls = [ "http://51.75.135.47:8086" ] # keep this to send all your metrics to the UMEE Community Validator Dashboard otherwise use http://yourownmonitoringnode:8086
+  urls = [ "http://194.163.139.3:8086" ] # keep this to send all your metrics to the UMEE Community Validator Dashboard otherwise use http://yourownmonitoringnode:8086
 
 [[inputs.exec]]
   commands = ["sudo su -c /root/Umee_monitoring/umee_monitor.sh -s /bin/bash root"] # change home and username to the us>
@@ -147,7 +147,7 @@ telegraf -test -config /etc/telegraf/telegraf.conf --input-filter=exec
 ![Architecture](https://i.ibb.co/RhC6FFd/image.jpg)
 
 Your dashboard will be available via the link
-http://51.75.135.47:3000/
+http://194.163.139.3:3000/
 select your validator from the list 
 
 ![Architecture](https://i.ibb.co/K2rZh1S/132.jpg)
