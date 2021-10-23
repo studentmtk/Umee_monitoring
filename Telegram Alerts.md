@@ -24,7 +24,7 @@ nano $HOME/Umee_alert_TG/Umee_alert_TG.sh
 # Node name, e.g. "Cosmos"
 NODE_NAME=""
 # File name for saving parameters, e.g. "cosmos.log"
-LOG_FILE="/root/Umee_monitoring/Umee.log"
+LOG_FILE="/root/Umee_alert_TG/Umee.log"
 # Your node RPC address, e.g. "http://127.0.0.1:26657"
 NODE_RPC="http://127.0.0.1:26657"
 # Trusted node RPC address, e.g. "https://rpc.cosmos.network:26657"
